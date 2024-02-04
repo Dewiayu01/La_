@@ -78,7 +78,7 @@ const register = async (req, res) => {
 
         const transporter = nodemailer.createTransport(
             new Transport({
-                apiKey: "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" || process.env.EMAIL_API_KEY
+                apiKey: "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" || process.env.EMAIL_API_KEY
             })
         );
 
